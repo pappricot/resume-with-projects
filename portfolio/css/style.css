@@ -42,6 +42,13 @@ header,
   }
 }
 
+@media (min-width: 992px) {
+  h1 {
+    font-size: 170%;
+    padding-top: 100px
+  }
+}
+
 .btn-white {
   color: black !important;
 }
@@ -60,4 +67,9 @@ h6 {
 
 li .fa {
   color: white;
+}
+
+img {
+  padding-top: 100px;
+  padding-left: 100px;
 }
