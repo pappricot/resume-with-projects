@@ -41,12 +41,17 @@ body {
     line-height : 1.8em;
     color       : white;
     background-image:url("../unsplash4.jpg");
+    background-size: cover;
     font-weight : 300;
     }
 
 /* --------------------------------------
  * Global Typography
  *------------------------------------------*/
+
+li .fa {
+    color: white;
+  }
 
 h1, h2, h3, h4, h5, h6 {
     margin : 0 0 15px;
@@ -198,6 +203,10 @@ button:focus,
     .section-wrapper {
         padding : 20px 0;
         }
+    .portfolio-item {
+            text-align: right;
+    }
+    
     }
 
 @media (max-width : 600px){
@@ -268,7 +277,7 @@ button:focus,
 
 .header .personal-details strong {
     font-size   : 13px;
-    color       : #444444;
+    color       : #cccccc;
     display     : block;
     line-height : 1;
     }
@@ -429,7 +438,7 @@ button:focus,
     }
 
 .portfolio-item .portfolio-thumb img {
-    height    : auto;
+    height    : 200px;
     display   : block;
     max-width : 100%;
     }
