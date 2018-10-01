@@ -267,7 +267,7 @@ button:focus,
     }
 
 .header .name-wrapper span {
-    font-size : 24px;
+    font-size : 30px;
     color     : #ff5722;
     }
 
@@ -401,6 +401,13 @@ button:focus,
     box-shadow       : none;
     text-align       : right;
     }
+
+.progress-bar {
+    transition: width 1s ease-in-out;
+    width: 0;
+}
+
+
 
 .progress-item .progress-percent {
     font-size        : 10px;
