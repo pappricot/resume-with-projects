@@ -96,6 +96,7 @@ h6 {
 /* --------------------------------------
  * LINK STYLE
  *------------------------------------------*/
+
 a {
     color              : #ff5722;
     text-decoration    : none;
@@ -199,15 +200,20 @@ button:focus,
     padding : 50px 0;
     }
 
+
+@media (max-width : 971px) {
+    .img-responsive {
+        max-width: 50%;
+    }
+}
 @media (max-width : 768px) {
     .section-wrapper {
         padding : 20px 0;
         }
     .portfolio-item {
             text-align: right;
-    }
-    
-    }
+    }   
+}
 
 @media (max-width : 600px){
     .section-wrapper {
