@@ -54,14 +54,15 @@ jQuery(function ($) {
             
         }
     }
-
+    printMessage2(headerText)
+    
     const changeMessage = () => {
         printMessage(messages[currentMessageIndex]);
         currentMessageIndex = (currentMessageIndex+1)%3
     }
 
     setInterval(changeMessage, 3000)
-    printMessage2(headerText)
+   
     
 //    $('.progress-wrapper').scrollspy({
 //        onEnter: function(element, position) {
